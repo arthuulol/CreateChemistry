@@ -1,0 +1,9 @@
+// 1.21.1	2025-05-24T18:13:51.5362214	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+29c2f6c8fb25db54d768a038d83f07dad173caf6 assets/createchemistry/lang/en_ud.json
+b0490a78aedc80a47bd37b24b06f31fc60285758 assets/createchemistry/lang/en_us.json
+784b5830581b2b159c5a063b0210264d19265f49 assets/createchemistry/models/item/copper_sulfate.json
+2854d93cb89ad076669fc175a3c9d92bc4e2f466 assets/createchemistry/models/item/sulfate_dust.json
+3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json
+487dca5e99a024c8dbc05ee505ab27764ef3b231 assets/createchemistry/models/item/sulfuric_acid_bottle.json
+d198f384b94653af2650b6483bc389964beada54 assets/createchemistry/models/item/sulfur_dust.json
+6ba9ec93447be11177980705ea114e242f59f7f7 data/create/tags/item/upright_on_belt.json

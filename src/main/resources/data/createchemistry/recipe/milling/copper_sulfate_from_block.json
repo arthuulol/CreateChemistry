@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:oxidized_copper"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "minecraft:copper_block"
+    },
+    {
+      "id": "createchemistry:copper_sulfate"
+    },
+    {
+      "chance": 0.5,
+      "id": "createchemistry:copper_sulfate"
+    }
+  ]
+}

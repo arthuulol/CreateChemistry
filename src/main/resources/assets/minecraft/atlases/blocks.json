@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/sulfuric_acid_still"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/sulfuric_acid_flow"
+    }
+  ]
+}

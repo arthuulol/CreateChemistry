@@ -1,0 +1,49 @@
+package com.toabars.createchemistry.registrate;
+
+import com.simibubi.create.AllTags;
+import com.simibubi.create.content.equipment.BuildersTeaItem;
+import com.tterrag.registrate.util.entry.ItemEntry;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PotionItem;
+import net.neoforged.bus.api.IEventBus;
+
+import static com.toabars.createchemistry.MainClass.REGISTRATE;
+
+public class Items {
+    //public static BlockEntry<Block> SHIT_BLOCK = REGISTRATE.block("shit_block", Block::new)
+            //.register();
+
+    //public static ItemEntry<Item> SHIT_ITEM = REGISTRATE.item("shit", Item::new)
+            //.register();
+
+    public static ItemEntry<Item> SULFUR = REGISTRATE.item("sulfur", Item::new)
+            .register();
+
+    public static ItemEntry<Item> SULFUR_DUST = REGISTRATE.item("sulfur_dust", Item::new)
+            .register();
+
+    public static ItemEntry<Item> SULFATE_DUST = REGISTRATE.item("sulfate_dust", Item::new)
+            .register();
+
+    public static ItemEntry<Item> COPPER_SULFATE = REGISTRATE.item("copper_sulfate", Item::new)
+            .register();
+
+    public static final ItemEntry<BuildersTeaItem> SULFURIC_ACID_BOTTLE = REGISTRATE.item("sulfuric_acid_bottle", BuildersTeaItem::new)
+            .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
+            .properties(p -> p
+                    .stacksTo(1)
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 100, false, false, false), 1F)
+                            .build()
+                    )
+            )
+            .register();
+
+    public static void register(IEventBus modEventBus) {}
+}
+
+//d

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "createchemistry:sulfur_dust"
+  },
+  "result": {
+    "count": 1,
+    "id": "createchemistry:sulfate_dust"
+  }
+}
