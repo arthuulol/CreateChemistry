@@ -7,6 +7,14 @@
     {
       "type": "single",
       "resource": "createchemistry:fluid/sulfuric_acid_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/yeasted_water_still"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/yeasted_water_flow"
     }
   ]
 }

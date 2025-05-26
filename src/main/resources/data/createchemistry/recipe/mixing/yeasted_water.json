@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 20,
+      "id": "createchemistry:yeasted_water"
+    }
+  ]
+}

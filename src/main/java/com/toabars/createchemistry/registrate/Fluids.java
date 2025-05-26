@@ -12,10 +12,14 @@ public class Fluids {
             //.register();
 
     public static final FluidEntry<VirtualFluid> SULFURIC_ACID = REGISTRATE.virtualFluid("sulfuric_acid")
-        .lang("Sulfuric acid")
+            .lang("Sulfuric acid")
+        .register();
+
+    public static final FluidEntry<VirtualFluid> YEASTED_WATER = REGISTRATE.virtualFluid("yeasted_water")
+            .lang("Yeasted water")
         .register();
 
     public static void register() {}
 }
 
-// i fucking hate to texture
+// I fucking hate to texture
