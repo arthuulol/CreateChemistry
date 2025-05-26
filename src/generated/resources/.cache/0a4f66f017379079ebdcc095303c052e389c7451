@@ -1,6 +1,6 @@
-// 1.21.1	2025-05-26T16:28:33.7727965	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
-c33467ee77b6ce37d42283caeee7fa319c306e2e assets/createchemistry/lang/en_ud.json
-617c9b5de91b4daecebcc510caf4c377ea26d332 assets/createchemistry/lang/en_us.json
+// 1.21.1	2025-05-26T18:17:56.0331514	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+8229b2cfb084bf47b1e0d152b6fd6c3997ec2cc9 assets/createchemistry/lang/en_ud.json
+945fe7647343701a3f23e5db3e54ff8855f4fef8 assets/createchemistry/lang/en_us.json
 784b5830581b2b159c5a063b0210264d19265f49 assets/createchemistry/models/item/copper_sulfate.json
 2854d93cb89ad076669fc175a3c9d92bc4e2f466 assets/createchemistry/models/item/sulfate_dust.json
 3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json

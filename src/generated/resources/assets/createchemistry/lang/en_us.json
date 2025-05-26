@@ -1,4 +1,7 @@
 {
+  "fluid.createchemistry.ethanol": "Ethanol",
+  "fluid.createchemistry.sulfuric_acid": "Sulfuric acid",
+  "fluid.createchemistry.yeasted_water": "Yeasted water",
   "item.createchemistry.copper_sulfate": "Copper Sulfate",
   "item.createchemistry.sulfate_dust": "Sulfate Dust",
   "item.createchemistry.sulfur": "Sulfur",

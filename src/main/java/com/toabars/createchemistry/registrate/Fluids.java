@@ -19,6 +19,10 @@ public class Fluids {
             .lang("Yeasted water")
         .register();
 
+    public static final FluidEntry<VirtualFluid> ETHANOL = REGISTRATE.virtualFluid("ethanol")
+            .lang("Ethanol")
+            .register();
+
     public static void register() {}
 }
 

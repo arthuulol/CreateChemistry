@@ -15,6 +15,14 @@
     {
       "type": "single",
       "resource": "createchemistry:fluid/yeasted_water_flow"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/ethanol_still"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/ethanol_flow"
     }
   ]
 }
