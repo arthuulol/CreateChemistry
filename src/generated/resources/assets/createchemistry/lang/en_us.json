@@ -1,7 +1,13 @@
 {
+  "fluid.createchemistry.beer": "Beer",
   "fluid.createchemistry.ethanol": "Ethanol",
+  "fluid.createchemistry.nitric_acid": "Nitric acid",
   "fluid.createchemistry.sulfuric_acid": "Sulfuric acid",
   "fluid.createchemistry.yeasted_water": "Yeasted water",
+  "item.createchemistry.beer_mug": "Beer Mug",
+  "item.createchemistry.calcium_dust": "Calcium Dust",
+  "item.createchemistry.calcium_nitrate": "Calcium Nitrate",
+  "item.createchemistry.calcium_sulphate": "Calcium Sulphate",
   "item.createchemistry.copper_sulfate": "Copper Sulfate",
   "item.createchemistry.sulfate_dust": "Sulfate Dust",
   "item.createchemistry.sulfur": "Sulfur",

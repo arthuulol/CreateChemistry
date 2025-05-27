@@ -8,6 +8,20 @@
       "type": "single",
       "resource": "createchemistry:fluid/sulfuric_acid_flow"
     },
+
+
+
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/nitric_acid_still"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/nitric_acid_flow"
+    },
+
+
+
     {
       "type": "single",
       "resource": "createchemistry:fluid/yeasted_water_still"
@@ -16,6 +30,9 @@
       "type": "single",
       "resource": "createchemistry:fluid/yeasted_water_flow"
     },
+
+
+
     {
       "type": "single",
       "resource": "createchemistry:fluid/ethanol_still"

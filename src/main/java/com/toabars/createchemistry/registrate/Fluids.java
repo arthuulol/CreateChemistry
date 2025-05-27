@@ -15,6 +15,10 @@ public class Fluids {
             .lang("Sulfuric acid")
         .register();
 
+    public static final FluidEntry<VirtualFluid> NITRIC_ACID = REGISTRATE.virtualFluid("nitric_acid")
+            .lang("Nitric acid")
+            .register();
+
     public static final FluidEntry<VirtualFluid> YEASTED_WATER = REGISTRATE.virtualFluid("yeasted_water")
             .lang("Yeasted water")
         .register();
@@ -22,6 +26,12 @@ public class Fluids {
     public static final FluidEntry<VirtualFluid> ETHANOL = REGISTRATE.virtualFluid("ethanol")
             .lang("Ethanol")
             .register();
+
+    public static final FluidEntry<VirtualFluid> BEER = REGISTRATE.virtualFluid("beer")
+            .lang("Beer")
+            .register();
+
+    // ADD THE BEER TEXTURE
 
     public static void register() {}
 }

@@ -1,7 +1,13 @@
 {
+  "fluid.createchemistry.beer": "ɹǝǝᗺ",
   "fluid.createchemistry.ethanol": "ןouɐɥʇƎ",
+  "fluid.createchemistry.nitric_acid": "pıɔɐ ɔıɹʇıN",
   "fluid.createchemistry.sulfuric_acid": "pıɔɐ ɔıɹnɟןnS",
   "fluid.createchemistry.yeasted_water": "ɹǝʇɐʍ pǝʇsɐǝʎ",
+  "item.createchemistry.beer_mug": "bnW ɹǝǝᗺ",
+  "item.createchemistry.calcium_dust": "ʇsnᗡ ɯnıɔןɐƆ",
+  "item.createchemistry.calcium_nitrate": "ǝʇɐɹʇıN ɯnıɔןɐƆ",
+  "item.createchemistry.calcium_sulphate": "ǝʇɐɥdןnS ɯnıɔןɐƆ",
   "item.createchemistry.copper_sulfate": "ǝʇɐɟןnS ɹǝddoƆ",
   "item.createchemistry.sulfate_dust": "ʇsnᗡ ǝʇɐɟןnS",
   "item.createchemistry.sulfur": "ɹnɟןnS",
