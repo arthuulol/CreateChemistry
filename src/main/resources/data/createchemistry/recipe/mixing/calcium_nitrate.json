@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createchemistry:loose_soil"
+    },
+    {
+      "item": "createchemistry:calcium_sulphate"
+    }
+  ],
+  "results": [
+    {
+      "id": "createchemistry:calcium_nitrate"
+    }
+  ]
+}

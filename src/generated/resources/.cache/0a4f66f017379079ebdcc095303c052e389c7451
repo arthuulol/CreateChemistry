@@ -1,11 +1,12 @@
-// 1.21.1	2025-05-27T17:18:29.6324386	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
-2732580078f11f7c6424fcbfb877c6d0f4191165 assets/createchemistry/lang/en_ud.json
-2ef9227d327794dc1bfda0030ef4704290e21c91 assets/createchemistry/lang/en_us.json
+// 1.21.1	2025-05-27T19:44:26.5606064	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+894c741c41c50e6cba39922651ea6d2eb070442a assets/createchemistry/lang/en_ud.json
+f1a447caa32b4d53c7bcffed745e0432ac42b2e0 assets/createchemistry/lang/en_us.json
 881112a15ab0a516c468187fd690835484b13d38 assets/createchemistry/models/item/beer_mug.json
 50996bed2c8b022ae250e6e2d36ae3918ac7d545 assets/createchemistry/models/item/calcium_dust.json
 ddef1ebfd26addf30ec9f50f7c3ad3e3b2a1d69b assets/createchemistry/models/item/calcium_nitrate.json
-ff13bc4170614e2a784180f552159aac497d8322 assets/createchemistry/models/item/calcium_sulphate.json
+ebcf0c29a8d1b770b9531b95645672d89dd62663 assets/createchemistry/models/item/calcium_sulfate.json
 784b5830581b2b159c5a063b0210264d19265f49 assets/createchemistry/models/item/copper_sulfate.json
+a63ee9623b167026c515aa6d8ca2c1431be2b155 assets/createchemistry/models/item/loose_soil.json
 2854d93cb89ad076669fc175a3c9d92bc4e2f466 assets/createchemistry/models/item/sulfate_dust.json
 3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json
 487dca5e99a024c8dbc05ee505ab27764ef3b231 assets/createchemistry/models/item/sulfuric_acid_bottle.json

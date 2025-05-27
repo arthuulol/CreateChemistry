@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "createchemistry:sulfate_dust"
+    },
+    {
+      "item": "createchemistry:calcium_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "createchemistry:calcium_sulfate"
+    }
+  ]
+}

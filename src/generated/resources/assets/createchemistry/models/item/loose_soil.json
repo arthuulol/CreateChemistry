@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "createchemistry:item/calcium_sulphate"
+    "layer0": "createchemistry:item/loose_soil"
   }
 }

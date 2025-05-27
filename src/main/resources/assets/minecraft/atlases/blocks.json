@@ -40,6 +40,17 @@
     {
       "type": "single",
       "resource": "createchemistry:fluid/ethanol_flow"
+    },
+
+
+
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/beer_still"
+    },
+    {
+      "type": "single",
+      "resource": "createchemistry:fluid/beer_flow"
     }
   ]
 }

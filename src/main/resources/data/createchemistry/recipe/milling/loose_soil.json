@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "minecraft:dirt"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "createchemistry:loose_soil"
+    }
+  ]
+}

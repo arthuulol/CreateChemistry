@@ -34,7 +34,7 @@ public class Items {
     public static ItemEntry<Item> CALCIUM_DUST = REGISTRATE.item("calcium_dust", Item::new)
             .register();
 
-    public static ItemEntry<Item> CALCIUM_SULPHATE = REGISTRATE.item("calcium_sulphate", Item::new)
+    public static ItemEntry<Item> CALCIUM_SULFATE = REGISTRATE.item("calcium_sulfate", Item::new)
             .register();
 
     public static ItemEntry<Item> CALCIUM_NITRATE = REGISTRATE.item("calcium_nitrate", Item::new)
@@ -63,6 +63,9 @@ public class Items {
                             .build()
                     )
             )
+            .register();
+
+    public static ItemEntry<Item> LOOSE_SOIL = REGISTRATE.item("loose_soil", Item::new)
             .register();
 
     public static void register(IEventBus modEventBus) {}
