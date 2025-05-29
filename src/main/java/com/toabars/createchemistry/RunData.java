@@ -1,5 +1,6 @@
 package com.toabars.createchemistry;
 
+import com.toabars.data.worldgen.CreateChemistryWorldGenProvider;
 import com.tterrag.registrate.providers.RegistrateDataProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -23,5 +24,7 @@ public class RunData {
                         new RegistrateDataProvider(REGISTRATE, MainClass.MOD_ID, event)
                 )
         );
+
+        generator.addProvider(true, new CreateChemistryWorldGenProvider(output, event.getLookupProvider()));
     }
 }

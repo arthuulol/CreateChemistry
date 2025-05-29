@@ -1,0 +1,4 @@
+// 1.21.1	2025-05-29T19:55:35.002731	Registries
+f4aa121518771f36a20259601e77b86c98d70ef6 data/createchemistry/neoforge/biome_modifier/add_sulfur_ore.json
+c68f6a1a7ec29266bcbc5757812ab7a7f0b8be49 data/createchemistry/worldgen/configured_feature/sulfur_ore.json
+d5dc83b552e4e739a45378bf2509af435cc70255 data/createchemistry/worldgen/placed_feature/sulfur_ore.json
