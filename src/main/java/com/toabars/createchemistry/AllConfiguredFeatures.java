@@ -6,6 +6,7 @@ import com.simibubi.create.infrastructure.worldgen.AllFeatures;
 import com.simibubi.create.infrastructure.worldgen.AllLayerPatterns;
 import com.simibubi.create.infrastructure.worldgen.LayerPattern;
 import com.simibubi.create.infrastructure.worldgen.LayeredOreConfiguration;
+import com.toabars.createchemistry.registrate.Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
@@ -34,10 +35,10 @@ public class AllConfiguredFeatures {
 		RuleTest deepslateOreReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
 		List<TargetBlockState> zincTargetStates = List.of(
-			OreConfiguration.target(stoneOreReplaceables, AllBlocks.ZINC_ORE.get()
-				.defaultBlockState()),
-			OreConfiguration.target(deepslateOreReplaceables, AllBlocks.DEEPSLATE_ZINC_ORE.get()
+			OreConfiguration.target(stoneOreReplaceables, Blocks.SULFUR_ORE.get()
 				.defaultBlockState())
+			//OreConfiguration.target(deepslateOreReplaceables, AllBlocks.DEEPSLATE_ZINC_ORE.get()
+				//.defaultBlockState())
 		);
 
 		register(ctx, SULFUR_ORE, Feature.ORE, new OreConfiguration(zincTargetStates, 12));

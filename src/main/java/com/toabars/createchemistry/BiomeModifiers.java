@@ -1,7 +1,7 @@
 package com.toabars.createchemistry;
 
 import com.simibubi.create.Create;
-import com.simibubi.create.infrastructure.worldgen.AllPlacedFeatures;
+import com.toabars.createchemistry.PlacementFeatures;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderSet;
@@ -29,7 +29,7 @@ public class BiomeModifiers {
         HolderSet<Biome> isNether = biomeLookup.getOrThrow(BiomeTags.IS_NETHER);
 
         HolderGetter<PlacedFeature> featureLookup = ctx.lookup(Registries.PLACED_FEATURE);
-        Holder<PlacedFeature> zincOre = featureLookup.getOrThrow(AllPlacedFeatures.ZINC_ORE);
+        Holder<PlacedFeature> zincOre = featureLookup.getOrThrow(PlacementFeatures.SULFUR_ORE);
         //Holder<PlacedFeature> striatedOresOverworld = featureLookup.getOrThrow(AllPlacedFeatures.STRIATED_ORES_OVERWORLD);
         //Holder<PlacedFeature> striatedOresNether = featureLookup.getOrThrow(AllPlacedFeatures.STRIATED_ORES_NETHER);
 

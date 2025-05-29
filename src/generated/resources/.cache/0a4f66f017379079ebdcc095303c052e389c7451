@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-29T17:38:25.8376679	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-05-29T17:51:50.0250896	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
 ce09aba0eec4dd9c32a21fd75a7803db8a7eeee8 assets/createchemistry/lang/en_ud.json
 49454fb753a23472fb3be3a8ba2d9a05da82a2c7 assets/createchemistry/lang/en_us.json
@@ -13,5 +13,14 @@ a63ee9623b167026c515aa6d8ca2c1431be2b155 assets/createchemistry/models/item/loos
 3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json
 487dca5e99a024c8dbc05ee505ab27764ef3b231 assets/createchemistry/models/item/sulfuric_acid_bottle.json
 d198f384b94653af2650b6483bc389964beada54 assets/createchemistry/models/item/sulfur_dust.json
-7b3f29a60b791368c2015765cc21fca3b585d64c data/createchemistry/loot_table/blocks/sulfur_ore.json
+bf5b4b8b8a31a62bbeac44fb3ac7fb0aebba7052 assets/createchemistry/models/item/sulfur_ore.json
+f7dd0f064f920f6b96b66a58d069038dca6ebc46 data/createchemistry/loot_table/blocks/sulfur_ore.json
 45a57905dc845ec43ea70593421b2199c1f31d2c data/create/tags/item/upright_on_belt.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/block/ores.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/block/ores/zinc.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/block/ores_in_ground/stone.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/item/ores.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/item/ores/zinc.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/item/ores_in_ground/stone.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/minecraft/tags/block/mineable/pickaxe.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/minecraft/tags/block/needs_iron_tool.json
