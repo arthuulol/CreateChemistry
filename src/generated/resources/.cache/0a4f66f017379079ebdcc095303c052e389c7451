@@ -1,6 +1,8 @@
-// 1.21.1	2025-05-27T19:44:26.5606064	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
-894c741c41c50e6cba39922651ea6d2eb070442a assets/createchemistry/lang/en_ud.json
-f1a447caa32b4d53c7bcffed745e0432ac42b2e0 assets/createchemistry/lang/en_us.json
+// 1.21.1	2025-05-29T17:38:25.8376679	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
+ce09aba0eec4dd9c32a21fd75a7803db8a7eeee8 assets/createchemistry/lang/en_ud.json
+49454fb753a23472fb3be3a8ba2d9a05da82a2c7 assets/createchemistry/lang/en_us.json
+2d2b7ca936487ff1f0486f2287f869f9178a621b assets/createchemistry/models/block/sulfur_ore.json
 881112a15ab0a516c468187fd690835484b13d38 assets/createchemistry/models/item/beer_mug.json
 50996bed2c8b022ae250e6e2d36ae3918ac7d545 assets/createchemistry/models/item/calcium_dust.json
 ddef1ebfd26addf30ec9f50f7c3ad3e3b2a1d69b assets/createchemistry/models/item/calcium_nitrate.json
@@ -11,4 +13,5 @@ a63ee9623b167026c515aa6d8ca2c1431be2b155 assets/createchemistry/models/item/loos
 3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json
 487dca5e99a024c8dbc05ee505ab27764ef3b231 assets/createchemistry/models/item/sulfuric_acid_bottle.json
 d198f384b94653af2650b6483bc389964beada54 assets/createchemistry/models/item/sulfur_dust.json
+7b3f29a60b791368c2015765cc21fca3b585d64c data/createchemistry/loot_table/blocks/sulfur_ore.json
 45a57905dc845ec43ea70593421b2199c1f31d2c data/create/tags/item/upright_on_belt.json
