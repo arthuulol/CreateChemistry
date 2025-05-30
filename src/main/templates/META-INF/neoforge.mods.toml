@@ -38,7 +38,7 @@ displayName="${mod_name}" #mandatory
 logoFile="icon.png" #optional
 
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Arthur, and cakeGit for helping with coding and troubleshooting" #optional
 
 # A text field displayed in the mod UI
 authors="${mod_authors}" #optional
