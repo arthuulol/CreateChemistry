@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createchemistry:sulfur"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "createchemistry:sulfur_dust"
+    },
+    {
+      "chance": 0.25,
+      "id": "createchemistry:sulfur_dust"
+    }
+  ]
+}

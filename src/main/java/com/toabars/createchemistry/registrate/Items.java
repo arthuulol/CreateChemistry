@@ -52,6 +52,41 @@ public class Items {
             )
             .register();
 
+    public static final ItemEntry<BuildersTeaItem> NITRIC_ACID_BOTTLE = REGISTRATE.item("nitric_acid_bottle", BuildersTeaItem::new)
+            .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
+            .properties(p -> p
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 100, false, false, false), 1F)
+                            .build()
+                    )
+            )
+            .register();
+
+    public static final ItemEntry<BuildersTeaItem> ETHANOL_BOTTLE = REGISTRATE.item("ethanol_bottle", BuildersTeaItem::new)
+            .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
+            .properties(p -> p
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 5, false, false, false), 1F)
+                            .build()
+                    )
+            )
+            .register();
+
+    public static final ItemEntry<BuildersTeaItem> YEASTED_WATER_BOTTLE = REGISTRATE.item("yeasted_water_bottle", BuildersTeaItem::new)
+            .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
+            .properties(p -> p
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .build()
+                    )
+            )
+            .register();
+
     public static final ItemEntry<BuildersTeaItem> BEER_MUG = REGISTRATE.item("beer_mug", BuildersTeaItem::new)
             .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
             .properties(p -> p

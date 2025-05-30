@@ -1,6 +1,9 @@
 {
   "values": [
     "createchemistry:sulfuric_acid_bottle",
+    "createchemistry:nitric_acid_bottle",
+    "createchemistry:ethanol_bottle",
+    "createchemistry:yeasted_water_bottle",
     "createchemistry:beer_mug"
   ]
 }

@@ -11,9 +11,12 @@
   "item.createchemistry.calcium_nitrate": "Calcium Nitrate",
   "item.createchemistry.calcium_sulfate": "Calcium Sulfate",
   "item.createchemistry.copper_sulfate": "Copper Sulfate",
+  "item.createchemistry.ethanol_bottle": "Ethanol Bottle",
   "item.createchemistry.loose_soil": "Loose Soil",
+  "item.createchemistry.nitric_acid_bottle": "Nitric Acid Bottle",
   "item.createchemistry.sulfate_dust": "Sulfate Dust",
   "item.createchemistry.sulfur": "Sulfur",
   "item.createchemistry.sulfur_dust": "Sulfur Dust",
-  "item.createchemistry.sulfuric_acid_bottle": "Sulfuric Acid Bottle"
+  "item.createchemistry.sulfuric_acid_bottle": "Sulfuric Acid Bottle",
+  "item.createchemistry.yeasted_water_bottle": "Yeasted Water Bottle"
 }

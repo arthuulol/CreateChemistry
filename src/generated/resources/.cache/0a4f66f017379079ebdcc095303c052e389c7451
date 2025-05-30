@@ -1,8 +1,8 @@
-// 1.21.1	2025-05-29T19:55:35.0012443	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-05-30T16:35:39.0326581	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b972d28ebf771aebc32dd740a046ee4e7d02cea1 assets/createchemistry/blockstates/deepslate_sulfur_ore.json
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
-6472237b02e4a6087b73d0855f60b6162d69d8e6 assets/createchemistry/lang/en_ud.json
-109bd4c47ef1d5be06f76ee4b073bbe91d3d0a3b assets/createchemistry/lang/en_us.json
+9455be55ebfb06831c0e9aa030613e917813ea2f assets/createchemistry/lang/en_ud.json
+2445319fdec54a213d8e08a52bef9b9d3f244a98 assets/createchemistry/lang/en_us.json
 0c9113e77f1bedd79daaefc50c07740ccb9aceee assets/createchemistry/models/block/deepslate_sulfur_ore.json
 2d2b7ca936487ff1f0486f2287f869f9178a621b assets/createchemistry/models/block/sulfur_ore.json
 881112a15ab0a516c468187fd690835484b13d38 assets/createchemistry/models/item/beer_mug.json
@@ -11,15 +11,18 @@ ddef1ebfd26addf30ec9f50f7c3ad3e3b2a1d69b assets/createchemistry/models/item/calc
 ebcf0c29a8d1b770b9531b95645672d89dd62663 assets/createchemistry/models/item/calcium_sulfate.json
 784b5830581b2b159c5a063b0210264d19265f49 assets/createchemistry/models/item/copper_sulfate.json
 03ccac73e72018a8247c92c189d3cfaa93cf94fb assets/createchemistry/models/item/deepslate_sulfur_ore.json
+4043578cf92d369a5299c37c583651010809c80e assets/createchemistry/models/item/ethanol_bottle.json
 a63ee9623b167026c515aa6d8ca2c1431be2b155 assets/createchemistry/models/item/loose_soil.json
+b3824c0fe88c7687767cbfb777e56d6f30d7a342 assets/createchemistry/models/item/nitric_acid_bottle.json
 2854d93cb89ad076669fc175a3c9d92bc4e2f466 assets/createchemistry/models/item/sulfate_dust.json
 3304c562f59fe42f4407d457443eb095667bc8fb assets/createchemistry/models/item/sulfur.json
 487dca5e99a024c8dbc05ee505ab27764ef3b231 assets/createchemistry/models/item/sulfuric_acid_bottle.json
 d198f384b94653af2650b6483bc389964beada54 assets/createchemistry/models/item/sulfur_dust.json
 bf5b4b8b8a31a62bbeac44fb3ac7fb0aebba7052 assets/createchemistry/models/item/sulfur_ore.json
+6790a68f6b49faabbea19f95c2a982412a461c98 assets/createchemistry/models/item/yeasted_water_bottle.json
 6b9516dc40fa39699e63962187abdf22645b1558 data/createchemistry/loot_table/blocks/deepslate_sulfur_ore.json
 f7dd0f064f920f6b96b66a58d069038dca6ebc46 data/createchemistry/loot_table/blocks/sulfur_ore.json
-45a57905dc845ec43ea70593421b2199c1f31d2c data/create/tags/item/upright_on_belt.json
+38de7e6495c3b8f11302ce7aa5b5374408759680 data/create/tags/item/upright_on_belt.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores/sulfur.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores_in_ground/stone.json
