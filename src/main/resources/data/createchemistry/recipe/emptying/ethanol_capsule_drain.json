@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "createchemistry:ethanol_capsule"
+    }
+  ],
+  "results": [
+    {
+      "id": "createchemistry:empty_capsule"
+    },
+    {
+      "amount": 100,
+      "id": "createchemistry:ethanol"
+    }
+  ]
+}

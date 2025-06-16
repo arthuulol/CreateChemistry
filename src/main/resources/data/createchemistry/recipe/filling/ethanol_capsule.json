@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createchemistry:empty_capsule"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "createchemistry:ethanol"
+    }
+  ],
+  "results": [
+    {
+      "id": "createchemistry:ethanol_capsule"
+    }
+  ]
+}

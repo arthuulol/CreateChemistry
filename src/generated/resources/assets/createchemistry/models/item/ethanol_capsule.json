@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "createchemistry:item/copper_sulfate"
+    "layer0": "createchemistry:item/ethanol_capsule"
   }
 }

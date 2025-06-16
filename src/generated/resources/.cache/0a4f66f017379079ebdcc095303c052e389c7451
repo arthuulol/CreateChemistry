@@ -1,17 +1,19 @@
-// 1.21.1	2025-05-30T16:35:39.0326581	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-06-16T18:11:27.660648	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b972d28ebf771aebc32dd740a046ee4e7d02cea1 assets/createchemistry/blockstates/deepslate_sulfur_ore.json
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
-9455be55ebfb06831c0e9aa030613e917813ea2f assets/createchemistry/lang/en_ud.json
-2445319fdec54a213d8e08a52bef9b9d3f244a98 assets/createchemistry/lang/en_us.json
+e2ea8dc8ad0455ccc19c0547b9aa0b28cee4485d assets/createchemistry/lang/en_ud.json
+9ae077375875ed58227b3257ee8851a0776d4d48 assets/createchemistry/lang/en_us.json
 0c9113e77f1bedd79daaefc50c07740ccb9aceee assets/createchemistry/models/block/deepslate_sulfur_ore.json
 2d2b7ca936487ff1f0486f2287f869f9178a621b assets/createchemistry/models/block/sulfur_ore.json
 881112a15ab0a516c468187fd690835484b13d38 assets/createchemistry/models/item/beer_mug.json
 50996bed2c8b022ae250e6e2d36ae3918ac7d545 assets/createchemistry/models/item/calcium_dust.json
 ddef1ebfd26addf30ec9f50f7c3ad3e3b2a1d69b assets/createchemistry/models/item/calcium_nitrate.json
 ebcf0c29a8d1b770b9531b95645672d89dd62663 assets/createchemistry/models/item/calcium_sulfate.json
-784b5830581b2b159c5a063b0210264d19265f49 assets/createchemistry/models/item/copper_sulfate.json
+ee24b63c50276ded9a063a4c4766c3f3b0bdd914 assets/createchemistry/models/item/copper_carbonate.json
 03ccac73e72018a8247c92c189d3cfaa93cf94fb assets/createchemistry/models/item/deepslate_sulfur_ore.json
+af7eaa1fe8950f47c9a459fadb675e05c4314847 assets/createchemistry/models/item/empty_capsule.json
 4043578cf92d369a5299c37c583651010809c80e assets/createchemistry/models/item/ethanol_bottle.json
+a86dd80b4b95682dff4c30b6c789c16c324ee678 assets/createchemistry/models/item/ethanol_capsule.json
 a63ee9623b167026c515aa6d8ca2c1431be2b155 assets/createchemistry/models/item/loose_soil.json
 b3824c0fe88c7687767cbfb777e56d6f30d7a342 assets/createchemistry/models/item/nitric_acid_bottle.json
 2854d93cb89ad076669fc175a3c9d92bc4e2f466 assets/createchemistry/models/item/sulfate_dust.json

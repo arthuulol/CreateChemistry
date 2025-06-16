@@ -2,6 +2,7 @@ package com.toabars.createchemistry.registrate;
 
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.equipment.BuildersTeaItem;
+import com.simibubi.create.foundation.item.CombustibleItem;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -17,6 +18,12 @@ public class Items {
 
     //public static ItemEntry<Item> SHIT_ITEM = REGISTRATE.item("shit", Item::new)
             //.register();
+    public static ItemEntry<Item> CAPSULE = REGISTRATE.item("empty_capsule", Item::new)
+            .register();
+
+    public static ItemEntry<CombustibleItem> DECOMPOSABLE_ETHANOL_CAPSULE = REGISTRATE.item("ethanol_capsule", CombustibleItem::new)
+            .onRegister(i -> i.setBurnTime(12800))
+            .register();
 
     public static ItemEntry<Item> SULFUR = REGISTRATE.item("sulfur", Item::new)
             .register();
@@ -27,7 +34,7 @@ public class Items {
     public static ItemEntry<Item> SULFATE_DUST = REGISTRATE.item("sulfate_dust", Item::new)
             .register();
 
-    public static ItemEntry<Item> COPPER_SULFATE = REGISTRATE.item("copper_sulfate", Item::new)
+    public static ItemEntry<Item> COPPER_CARBONATE = REGISTRATE.item("copper_carbonate", Item::new)
             .register();
 
     public static ItemEntry<Item> CALCIUM_DUST = REGISTRATE.item("calcium_dust", Item::new)
@@ -93,7 +100,9 @@ public class Items {
                     .stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .alwaysEdible()
-                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 3, 1, false, false, false), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 20*20, 1, false, false, false), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.WITHER, 5*20, 1, false, false, false), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 20*20, 1, false, false, false), 1F)
                             .build()
                     )
             )

@@ -1,0 +1,12 @@
+1.0.0
+first version of mod
+
+1.0.1
+tnt is now craftable from nitric acid, sulfuric acid and sand
+
+1.1.0
+copper sulfate is now named copper carbonate for better accuracy https://www.curseforge.com/members/curiositysv/projects
+recipe for yeasted water now yields double the previous amount (20mB -> 40mB)
+new item: empty capsule
+new item: ethanol capsule (burns 12800 ticks, 64 items) (spout ethanol)
+sulfur ores now smeltable (yes i had forgotten to do so)

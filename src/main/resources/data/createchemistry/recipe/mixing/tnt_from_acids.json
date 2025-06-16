@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 125,
+      "fluid": "createchemistry:sulfuric_acid"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 125,
+      "fluid": "createchemistry:nitric_acid"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:tnt"
+    }
+  ]
+}
