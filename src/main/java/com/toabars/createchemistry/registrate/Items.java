@@ -2,7 +2,6 @@ package com.toabars.createchemistry.registrate;
 
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.equipment.BuildersTeaItem;
-import com.simibubi.create.foundation.item.CombustibleItem;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -21,8 +20,8 @@ public class Items {
     public static ItemEntry<Item> CAPSULE = REGISTRATE.item("empty_capsule", Item::new)
         .register();
 
-    public static ItemEntry<CombustibleItem> DECOMPOSABLE_ETHANOL_CAPSULE = REGISTRATE.item("ethanol_capsule", CombustibleItem::new)
-        .onRegister(i -> i.setBurnTime(12800))
+    public static ItemEntry<Item> DECOMPOSABLE_ETHANOL_CAPSULE = REGISTRATE.item("ethanol_capsule", Item::new)
+        .burnTime(12800)
         .register();
 
     public static ItemEntry<Item> SULFUR = REGISTRATE.item("sulfur", Item::new)

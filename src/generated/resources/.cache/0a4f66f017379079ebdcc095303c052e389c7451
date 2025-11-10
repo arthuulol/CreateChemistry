@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-10T16:11:54.0307143	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-11-10T16:31:56.961712	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b972d28ebf771aebc32dd740a046ee4e7d02cea1 assets/createchemistry/blockstates/deepslate_sulfur_ore.json
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
 e2ea8dc8ad0455ccc19c0547b9aa0b28cee4485d assets/createchemistry/lang/en_ud.json
@@ -42,3 +42,4 @@ bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores/sulfur.json
 3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/item/ores_in_ground/stone.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/minecraft/tags/block/mineable/pickaxe.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/minecraft/tags/block/needs_iron_tool.json
+d9dcfeb77445a95bc1e69396dd2d99ce75d2cee2 data/neoforge/data_maps/item/furnace_fuels.json
