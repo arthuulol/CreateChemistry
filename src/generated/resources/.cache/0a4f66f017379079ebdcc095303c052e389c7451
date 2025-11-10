@@ -27,7 +27,15 @@ f7dd0f064f920f6b96b66a58d069038dca6ebc46 data/createchemistry/loot_table/blocks/
 38de7e6495c3b8f11302ce7aa5b5374408759680 data/create/tags/item/upright_on_belt.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores/sulfur.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores_in_ground/stone.json
+9392f107d43d4a6cfff1a659542702a0dbde0dac data/c/tags/block/ores_in_ground/deepslate.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/c/tags/block/ores_in_ground/stone.json
+181b1d650fde2b1c898271497f1673929534b336 data/c/tags/fluid/beer.json
+c53399c480bf205b073c529cf687af32537167de data/c/tags/fluid/ethanol.json
+79dc74413f06c0158ea66e6b5acee352b642c3d0 data/c/tags/fluid/nitric_acid.json
+9690ab30f9b50b4cee2835d32a33cde5e12e87b3 data/c/tags/fluid/sulfuric_acid.json
+f74aebf4144160601e913abac7292e87fedf21ae data/c/tags/fluid/yeasted_water.json
+eed47abe986dacf2f8d1ed13c4609b329417c390 data/c/tags/item/dusts/sulfur.json
+7ae67293004a68880007b613dc639c53efc0ecf9 data/c/tags/item/gems/sulfur.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores/sulfur.json
 9392f107d43d4a6cfff1a659542702a0dbde0dac data/c/tags/item/ores_in_ground/deepslate.json

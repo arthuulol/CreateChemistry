@@ -19,17 +19,19 @@ public class Items {
     //public static ItemEntry<Item> SHIT_ITEM = REGISTRATE.item("shit", Item::new)
             //.register();
     public static ItemEntry<Item> CAPSULE = REGISTRATE.item("empty_capsule", Item::new)
-            .register();
+        .register();
 
     public static ItemEntry<CombustibleItem> DECOMPOSABLE_ETHANOL_CAPSULE = REGISTRATE.item("ethanol_capsule", CombustibleItem::new)
-            .onRegister(i -> i.setBurnTime(12800))
-            .register();
+        .onRegister(i -> i.setBurnTime(12800))
+        .register();
 
     public static ItemEntry<Item> SULFUR = REGISTRATE.item("sulfur", Item::new)
-            .register();
+        .tag(AllTags.commonItemTag("gems/sulfur"))
+        .register();
 
     public static ItemEntry<Item> SULFUR_DUST = REGISTRATE.item("sulfur_dust", Item::new)
-            .register();
+        .tag(AllTags.commonItemTag("dusts/sulfur"))
+        .register();
 
     public static ItemEntry<Item> SULFATE_DUST = REGISTRATE.item("sulfate_dust", Item::new)
             .register();
