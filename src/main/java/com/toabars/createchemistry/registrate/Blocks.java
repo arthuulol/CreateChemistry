@@ -59,7 +59,7 @@ public class Blocks {
             })
             .tag(BlockTags.NEEDS_IRON_TOOL)
             .tag(Tags.Blocks.ORES)
-            .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/stone"))
+            .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/deepslate"))
             .tag(Tags.Items.ORES)
             .build()
             .register();
