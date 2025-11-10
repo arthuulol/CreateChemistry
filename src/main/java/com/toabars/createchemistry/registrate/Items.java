@@ -2,6 +2,7 @@ package com.toabars.createchemistry.registrate;
 
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.equipment.BuildersTeaItem;
+import com.toabars.createchemistry.CCTags.CCItemTags;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -25,20 +26,22 @@ public class Items {
         .register();
 
     public static ItemEntry<Item> SULFUR = REGISTRATE.item("sulfur", Item::new)
-        .tag(AllTags.commonItemTag("gems/sulfur"))
+        .tag(CCItemTags.SULFUR_GEMS.tag)
         .register();
 
     public static ItemEntry<Item> SULFUR_DUST = REGISTRATE.item("sulfur_dust", Item::new)
-        .tag(AllTags.commonItemTag("dusts/sulfur"))
+        .tag(CCItemTags.SULFUR_DUSTS.tag)
         .register();
 
     public static ItemEntry<Item> SULFATE_DUST = REGISTRATE.item("sulfate_dust", Item::new)
+        .tag(CCItemTags.SULFATE_DUSTS.tag)
         .register();
 
     public static ItemEntry<Item> COPPER_CARBONATE = REGISTRATE.item("copper_carbonate", Item::new)
         .register();
 
     public static ItemEntry<Item> CALCIUM_DUST = REGISTRATE.item("calcium_dust", Item::new)
+        .tag(CCItemTags.CALCIUM_DUSTS.tag)
         .register();
 
     public static ItemEntry<Item> CALCIUM_SULFATE = REGISTRATE.item("calcium_sulfate", Item::new)

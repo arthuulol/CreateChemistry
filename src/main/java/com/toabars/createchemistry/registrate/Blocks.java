@@ -1,5 +1,7 @@
 package com.toabars.createchemistry.registrate;
 
+import java.util.Map;
+
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -14,6 +16,9 @@ import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.Tags;
 
+import com.toabars.createchemistry.CCTags;
+import com.toabars.createchemistry.CCTags.CCBlockTags;
+import com.toabars.createchemistry.CCTags.CCItemTags;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 import static com.simibubi.create.foundation.data.TagGen.tagBlockAndItem;
 import static com.toabars.createchemistry.MainClass.REGISTRATE;
@@ -36,10 +41,18 @@ public class Blocks {
                     lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
                         .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
         })
-        .tag(BlockTags.NEEDS_IRON_TOOL)
-        .tag(Tags.Blocks.ORES)
-        .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/stone"))
-        .tag(Tags.Items.ORES)
+        .tag(
+            BlockTags.NEEDS_IRON_TOOL,
+            CCTags.forgeBlockTag("ores"),
+            CCTags.forgeBlockTag("ores_in_ground/stone"),
+            CCTags.forgeBlockTag("ores/sulfur"),
+            CCBlockTags.SULFUR_ORES.tag
+        )
+        .item()
+            .tag(
+                CCItemTags.SULFUR_ORES.tag,
+                CCTags.forgeItemTag("ores/sulfur")
+            )
         .build()
         .register();
 
@@ -57,10 +70,18 @@ public class Blocks {
                     lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
                         .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
         })
-        .tag(BlockTags.NEEDS_IRON_TOOL)
-        .tag(Tags.Blocks.ORES)
-        .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/deepslate"))
-        .tag(Tags.Items.ORES)
+        .tag(
+            BlockTags.NEEDS_IRON_TOOL,
+            CCTags.forgeBlockTag("ores"),
+            CCTags.forgeBlockTag("ores_in_ground/deepslate"),
+            CCTags.forgeBlockTag("ores/sulfur"),
+            CCBlockTags.SULFUR_ORES.tag
+        )
+        .item()
+            .tag(
+                CCItemTags.SULFUR_ORES.tag,
+                CCTags.forgeItemTag("ores/sulfur")
+            )
         .build()
         .register();
 
