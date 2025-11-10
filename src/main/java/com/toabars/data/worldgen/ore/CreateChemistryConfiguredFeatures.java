@@ -25,8 +25,8 @@ public class CreateChemistryConfiguredFeatures {
         RuleTest deepslateReplaceable = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> sulfurOre =
-                List.of(OreConfiguration.target(stoneReplaceable, Blocks.SULFUR_ORE.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_SULFUR_ORE.get().defaultBlockState()));
+            List.of(OreConfiguration.target(stoneReplaceable, Blocks.SULFUR_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_SULFUR_ORE.get().defaultBlockState()));
 
         register(context, SULFUR_ORE, Feature.ORE, new OreConfiguration(sulfurOre, 4));
     }

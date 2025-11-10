@@ -17,9 +17,9 @@ public class CreateChemistryWorldGenProvider extends DatapackBuiltinEntriesProvi
     public CreateChemistryWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries)
     {
         super(output, registries, new RegistrySetBuilder()
-                .add(Registries.CONFIGURED_FEATURE, CreateChemistryConfiguredFeatures::bootstrap)
-                .add(Registries.PLACED_FEATURE, CreateChemistryPlacedFeatures::bootstrap)
-                .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, CreateChemistryBiomeModifiers::bootstrap),
-                Set.of(MainClass.MOD_ID));
+            .add(Registries.CONFIGURED_FEATURE, CreateChemistryConfiguredFeatures::bootstrap)
+            .add(Registries.PLACED_FEATURE, CreateChemistryPlacedFeatures::bootstrap)
+            .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, CreateChemistryBiomeModifiers::bootstrap),
+            Set.of(MainClass.MOD_ID));
     }
 }

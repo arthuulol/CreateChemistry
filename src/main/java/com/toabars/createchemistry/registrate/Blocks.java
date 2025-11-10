@@ -23,46 +23,46 @@ public class Blocks {
     //.register();
 
     public static BlockEntry<Block> SULFUR_ORE = REGISTRATE.block("sulfur_ore", Block::new)
-            .initialProperties(() -> net.minecraft.world.level.block.Blocks.GOLD_ORE)
-            .properties(p -> p.mapColor(MapColor.METAL)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE))
-            .transform(pickaxeOnly())
-            .loot((lt, b) ->  {
-                HolderLookup.RegistryLookup<Enchantment> enchantmentRegistryLookup = lt.getRegistries().lookupOrThrow(Registries.ENCHANTMENT);
+        .initialProperties(() -> net.minecraft.world.level.block.Blocks.GOLD_ORE)
+        .properties(p -> p.mapColor(MapColor.METAL)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE))
+        .transform(pickaxeOnly())
+        .loot((lt, b) ->  {
+            HolderLookup.RegistryLookup<Enchantment> enchantmentRegistryLookup = lt.getRegistries().lookupOrThrow(Registries.ENCHANTMENT);
 
-                lt.add(b,
-                        lt.createSilkTouchDispatchTable(b,
-                                lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
-                                        .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
-            })
-            .tag(BlockTags.NEEDS_IRON_TOOL)
-            .tag(Tags.Blocks.ORES)
-            .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/stone"))
-            .tag(Tags.Items.ORES)
-            .build()
-            .register();
+            lt.add(b,
+                lt.createSilkTouchDispatchTable(b,
+                    lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
+                        .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
+        })
+        .tag(BlockTags.NEEDS_IRON_TOOL)
+        .tag(Tags.Blocks.ORES)
+        .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/stone"))
+        .tag(Tags.Items.ORES)
+        .build()
+        .register();
 
     public static BlockEntry<Block> DEEPSLATE_SULFUR_ORE = REGISTRATE.block("deepslate_sulfur_ore", Block::new)
-            .initialProperties(() -> net.minecraft.world.level.block.Blocks.DEEPSLATE_GOLD_ORE)
-            .properties(p -> p.mapColor(MapColor.METAL)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.STONE))
-            .transform(pickaxeOnly())
-            .loot((lt, b) ->  {
-                HolderLookup.RegistryLookup<Enchantment> enchantmentRegistryLookup = lt.getRegistries().lookupOrThrow(Registries.ENCHANTMENT);
+        .initialProperties(() -> net.minecraft.world.level.block.Blocks.DEEPSLATE_GOLD_ORE)
+        .properties(p -> p.mapColor(MapColor.METAL)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE))
+        .transform(pickaxeOnly())
+        .loot((lt, b) ->  {
+            HolderLookup.RegistryLookup<Enchantment> enchantmentRegistryLookup = lt.getRegistries().lookupOrThrow(Registries.ENCHANTMENT);
 
-                lt.add(b,
-                        lt.createSilkTouchDispatchTable(b,
-                                lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
-                                        .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
-            })
-            .tag(BlockTags.NEEDS_IRON_TOOL)
-            .tag(Tags.Blocks.ORES)
-            .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/deepslate"))
-            .tag(Tags.Items.ORES)
-            .build()
-            .register();
+            lt.add(b,
+                lt.createSilkTouchDispatchTable(b,
+                    lt.applyExplosionDecay(b, LootItem.lootTableItem(Items.SULFUR.get())
+                        .apply(ApplyBonusCount.addOreBonusCount(enchantmentRegistryLookup.getOrThrow(Enchantments.FORTUNE))))));
+        })
+        .tag(BlockTags.NEEDS_IRON_TOOL)
+        .tag(Tags.Blocks.ORES)
+        .transform(tagBlockAndItem("ores/sulfur", "ores_in_ground/deepslate"))
+        .tag(Tags.Items.ORES)
+        .build()
+        .register();
 
     public static void register(IEventBus modEventBus) {}
 }

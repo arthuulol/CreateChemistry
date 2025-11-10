@@ -20,9 +20,9 @@ public class RunData {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         event.getGenerator().addProvider(true,
-                REGISTRATE.setDataProvider(
-                        new RegistrateDataProvider(REGISTRATE, MainClass.MOD_ID, event)
-                )
+            REGISTRATE.setDataProvider(
+                new RegistrateDataProvider(REGISTRATE, MainClass.MOD_ID, event)
+            )
         );
 
         generator.addProvider(true, new CreateChemistryWorldGenProvider(output, event.getLookupProvider()));

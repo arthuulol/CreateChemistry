@@ -25,12 +25,12 @@ public class CreateChemistryBiomeModifiers {
         HolderGetter<Biome> biomes = context.lookup(Registries.BIOME);
 
         context.register(
-                ADD_SULFUR_ORE,
-                new BiomeModifiers.AddFeaturesBiomeModifier(
-                        biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                        HolderSet.direct(placedFeatures.getOrThrow(CreateChemistryPlacedFeatures.SULFUR_ORE)),
-                        GenerationStep.Decoration.UNDERGROUND_ORES
-                )
+            ADD_SULFUR_ORE,
+            new BiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(CreateChemistryPlacedFeatures.SULFUR_ORE)),
+                GenerationStep.Decoration.UNDERGROUND_ORES
+            )
         );
     }
 

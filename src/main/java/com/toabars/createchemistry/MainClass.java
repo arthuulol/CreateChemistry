@@ -39,11 +39,11 @@ public class MainClass
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MainClass.MOD_ID)
-            .setTooltipModifierFactory(item ->
-                    new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
-                        .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
+        .setTooltipModifierFactory(item ->
+            new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
+                .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
             )
-            .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);;
+        .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);;
 
 
 
