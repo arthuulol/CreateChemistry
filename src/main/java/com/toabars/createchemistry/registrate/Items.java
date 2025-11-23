@@ -13,11 +13,6 @@ import net.neoforged.bus.api.IEventBus;
 import static com.toabars.createchemistry.MainClass.REGISTRATE;
 
 public class Items {
-    //public static BlockEntry<Block> SHIT_BLOCK = REGISTRATE.block("shit_block", Block::new)
-        //.register();
-
-    //public static ItemEntry<Item> SHIT_ITEM = REGISTRATE.item("shit", Item::new)
-        //.register();
     public static ItemEntry<Item> CAPSULE = REGISTRATE.item("empty_capsule", Item::new)
         .register();
 
@@ -117,5 +112,3 @@ public class Items {
 
     public static void register(IEventBus modEventBus) {}
 }
-
-//d

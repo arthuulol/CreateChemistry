@@ -24,9 +24,6 @@ import static com.simibubi.create.foundation.data.TagGen.tagBlockAndItem;
 import static com.toabars.createchemistry.MainClass.REGISTRATE;
 
 public class Blocks {
-    //public static BlockEntry<Block> SHIT_BLOCK = REGISTRATE.block("shit_block", Block::new)
-    //.register();
-
     public static BlockEntry<Block> SULFUR_ORE = REGISTRATE.block("sulfur_ore", Block::new)
         .initialProperties(() -> net.minecraft.world.level.block.Blocks.GOLD_ORE)
         .properties(p -> p.mapColor(MapColor.METAL)

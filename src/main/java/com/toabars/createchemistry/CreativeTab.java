@@ -29,7 +29,7 @@ public class CreativeTab {
                 }
             }).build());
 
-    public static void register(IEventBus modEventBus) {//call this in main
+    public static void register(IEventBus modEventBus) {
         REGISTER.register(modEventBus);
     }
 
