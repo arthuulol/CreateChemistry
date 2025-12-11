@@ -23,10 +23,10 @@ public class CreateChemistryPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         Holder<ConfiguredFeature<?, ?>> holder =
-                configuredFeatures.getOrThrow(CreateChemistryConfiguredFeatures.SULFUR_ORE);
+            configuredFeatures.getOrThrow(CreateChemistryConfiguredFeatures.SULFUR_ORE);
 
         register(context, SULFUR_ORE, holder, CreateChemistryPlacement.commonOrePlacements(3, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),
-                VerticalAnchor.absolute(70))));
+            VerticalAnchor.absolute(70))));
     }
 
     private static ResourceKey<PlacedFeature> createKey(String name)

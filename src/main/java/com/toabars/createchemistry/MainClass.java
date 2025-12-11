@@ -29,21 +29,18 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(MainClass.MOD_ID)
 public class MainClass
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "createchemistry";
-    // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MainClass.MOD_ID)
-            .setTooltipModifierFactory(item ->
-                    new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
-                        .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
+        .setTooltipModifierFactory(item ->
+            new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
+                .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
             )
-            .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);;
+        .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);;
 
 
 
@@ -83,13 +80,11 @@ public class MainClass
 
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
@@ -109,6 +104,4 @@ public class MainClass
         }
 
     }
-
 }
-

@@ -19,12 +19,11 @@ public class RunData {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
-        event.getGenerator().addProvider(true,
-                REGISTRATE.setDataProvider(
-                        new RegistrateDataProvider(REGISTRATE, MainClass.MOD_ID, event)
-                )
-        );
+        new RegistrateDataProvider(REGISTRATE, MainClass.MOD_ID, event);
 
-        generator.addProvider(true, new CreateChemistryWorldGenProvider(output, event.getLookupProvider()));
+        generator.addProvider(
+            event.includeServer(),
+            new CreateChemistryWorldGenProvider(output, lookupProvider)
+        );
     }
 }
