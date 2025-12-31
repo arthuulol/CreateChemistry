@@ -10,3 +10,10 @@ recipe for yeasted water now yields double the previous amount (20mB -> 40mB)
 new item: empty capsule
 new item: ethanol capsule (burns 12800 ticks, 64 items) (spout ethanol)
 sulfur ores now smeltable (yes i had forgotten to do so)
+
+1.2.0
+Fixed deepslate_sulfur_ore tag (ores_in_ground/deepslate).
+Added fluid tags for sulfuric_acid, nitric_acid, and ethanol.
+Added common item tags #c:dusts/sulfur and #c:gems/sulfur.
+Replaced deprecated CombustibleItem with Item
+Fix for create 6.0.7 compatibility

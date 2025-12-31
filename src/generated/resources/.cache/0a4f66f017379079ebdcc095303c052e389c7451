@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-16T18:11:27.660648	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2025-12-11T18:07:44.0479176	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b972d28ebf771aebc32dd740a046ee4e7d02cea1 assets/createchemistry/blockstates/deepslate_sulfur_ore.json
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
 e2ea8dc8ad0455ccc19c0547b9aa0b28cee4485d assets/createchemistry/lang/en_ud.json
@@ -24,12 +24,23 @@ bf5b4b8b8a31a62bbeac44fb3ac7fb0aebba7052 assets/createchemistry/models/item/sulf
 6790a68f6b49faabbea19f95c2a982412a461c98 assets/createchemistry/models/item/yeasted_water_bottle.json
 6b9516dc40fa39699e63962187abdf22645b1558 data/createchemistry/loot_table/blocks/deepslate_sulfur_ore.json
 f7dd0f064f920f6b96b66a58d069038dca6ebc46 data/createchemistry/loot_table/blocks/sulfur_ore.json
+bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/createchemistry/tags/block/sulfur_ores.json
+bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/createchemistry/tags/item/sulfur_ores.json
 38de7e6495c3b8f11302ce7aa5b5374408759680 data/create/tags/item/upright_on_belt.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores/sulfur.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/block/ores_in_ground/stone.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores/sulfur.json
-bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/c/tags/item/ores_in_ground/stone.json
+bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/forge/tags/block/ores.json
+bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/forge/tags/block/ores/sulfur.json
+9392f107d43d4a6cfff1a659542702a0dbde0dac data/forge/tags/block/ores_in_ground/deepslate.json
+3808df976ff7c4b0bade5af6b37c5c3e0d056484 data/forge/tags/block/ores_in_ground/stone.json
+181b1d650fde2b1c898271497f1673929534b336 data/forge/tags/fluid/beer.json
+c53399c480bf205b073c529cf687af32537167de data/forge/tags/fluid/ethanol.json
+79dc74413f06c0158ea66e6b5acee352b642c3d0 data/forge/tags/fluid/nitric_acid.json
+9690ab30f9b50b4cee2835d32a33cde5e12e87b3 data/forge/tags/fluid/sulfuric_acid.json
+f74aebf4144160601e913abac7292e87fedf21ae data/forge/tags/fluid/yeasted_water.json
+3704bb9625d0f38e9b39e166298c505034ba3954 data/forge/tags/item/dusts/calcium.json
+a8fc9720d69fafac85a6279a22a8ce1e7db4f469 data/forge/tags/item/dusts/sulfate.json
+eed47abe986dacf2f8d1ed13c4609b329417c390 data/forge/tags/item/dusts/sulfur.json
+7ae67293004a68880007b613dc639c53efc0ecf9 data/forge/tags/item/gems/sulfur.json
+bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/forge/tags/item/ores/sulfur.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/minecraft/tags/block/mineable/pickaxe.json
 bbb9f0a4a68763328a5d7e8bd72cc52575ff9fab data/minecraft/tags/block/needs_iron_tool.json
+d9dcfeb77445a95bc1e69396dd2d99ce75d2cee2 data/neoforge/data_maps/item/furnace_fuels.json
