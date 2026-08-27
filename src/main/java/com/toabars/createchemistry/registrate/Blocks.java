@@ -24,8 +24,9 @@ import static com.simibubi.create.foundation.data.TagGen.tagBlockAndItem;
 import static com.toabars.createchemistry.MainClass.REGISTRATE;
 
 public class Blocks {
+
     public static BlockEntry<Block> SULFUR_ORE = REGISTRATE.block("sulfur_ore", Block::new)
-        .initialProperties(() -> net.minecraft.world.level.block.Blocks.GOLD_ORE)
+        .initialProperties(() -> net.minecraft.world.level.block.Blocks.IRON_ORE)
         .properties(p -> p.mapColor(MapColor.METAL)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE))
@@ -54,7 +55,7 @@ public class Blocks {
         .register();
 
     public static BlockEntry<Block> DEEPSLATE_SULFUR_ORE = REGISTRATE.block("deepslate_sulfur_ore", Block::new)
-        .initialProperties(() -> net.minecraft.world.level.block.Blocks.DEEPSLATE_GOLD_ORE)
+        .initialProperties(() -> net.minecraft.world.level.block.Blocks.DEEPSLATE_IRON_ORE)
         .properties(p -> p.mapColor(MapColor.METAL)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE))

@@ -1,8 +1,8 @@
-// 1.21.1	2025-12-11T18:07:44.0479176	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2026-08-27T16:43:18.9680945	Registrate Provider for createchemistry [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 b972d28ebf771aebc32dd740a046ee4e7d02cea1 assets/createchemistry/blockstates/deepslate_sulfur_ore.json
 b58c8ee21512f50ff2794f89eca9dce382f79379 assets/createchemistry/blockstates/sulfur_ore.json
-e2ea8dc8ad0455ccc19c0547b9aa0b28cee4485d assets/createchemistry/lang/en_ud.json
-9ae077375875ed58227b3257ee8851a0776d4d48 assets/createchemistry/lang/en_us.json
+be3f267dda68d5e1098c9f9ba16efbc019edb855 assets/createchemistry/lang/en_ud.json
+6587210e60454f1de927a222c883a0b0b3badc78 assets/createchemistry/lang/en_us.json
 0c9113e77f1bedd79daaefc50c07740ccb9aceee assets/createchemistry/models/block/deepslate_sulfur_ore.json
 2d2b7ca936487ff1f0486f2287f869f9178a621b assets/createchemistry/models/block/sulfur_ore.json
 881112a15ab0a516c468187fd690835484b13d38 assets/createchemistry/models/item/beer_mug.json

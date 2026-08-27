@@ -40,7 +40,7 @@ public class MainClass
             new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
                 .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
             )
-        .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);;
+        .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);
 
 
 

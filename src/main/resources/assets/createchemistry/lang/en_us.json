@@ -1,0 +1,28 @@
+{
+  "death.attack.corrosion": "%1$s has succumbed to corrosion",
+
+  "item.createchemistry.empty_capsule": "Empty Pyro-Decomposable Capsule",
+  "item.createchemistry.ethanol_capsule": "Ethanol Pyro-Decomposable Capsule",
+  "item.createchemistry.sulfur": "Sulfur",
+  "item.createchemistry.sulfur_dust": "Sulfur Dust",
+  "item.createchemistry.sulfate_dust": "Sulfate",
+  "item.createchemistry.copper_carbonate": "Copper Carbonate",
+  "item.createchemistry.calcium_dust": "Calcium",
+  "item.createchemistry.calcium_sulfate": "Calcium Sulfate",
+  "item.createchemistry.calcium_nitrate": "Calcium Nitrate",
+  "item.createchemistry.sulfuric_acid_bottle": "Sulfuric Acid Bottle",
+  "item.createchemistry.nitric_acid_bottle": "Nitric Acid Bottle",
+  "item.createchemistry.ethanol_bottle": "Ethanol Bottle",
+  "item.createchemistry.yeasted_water_bottle": "Yeasted Water Bottle",
+  "item.createchemistry.beer_mug": "Beer",
+  "item.createchemistry.loose_soil": "Loose Soil",
+
+  "block.createchemistry.sulfur_ore": "Sulfur Ore",
+  "block.createchemistry.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+
+  "fluid.createchemistry.sulfuric_acid": "Sulfuric Acid",
+  "fluid.createchemistry.nitric_acid": "Nitric Acid",
+  "fluid.createchemistry.yeasted_water": "Yeasted Water",
+  "fluid.createchemistry.ethanol": "Ethanol",
+  "fluid.createchemistry.beer": "Beer"
+}

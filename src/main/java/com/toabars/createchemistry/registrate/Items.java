@@ -3,6 +3,7 @@ package com.toabars.createchemistry.registrate;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.equipment.BuildersTeaItem;
 import com.toabars.createchemistry.CCTags.CCItemTags;
+import com.toabars.createchemistry.content.corrosive.CorrosiveItem;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -46,29 +47,27 @@ public class Items {
         .register();
 
 
-    public static final ItemEntry<BuildersTeaItem> SULFURIC_ACID_BOTTLE = REGISTRATE.item("sulfuric_acid_bottle", BuildersTeaItem::new)
+    public static final ItemEntry<CorrosiveItem> SULFURIC_ACID_BOTTLE = REGISTRATE.item("sulfuric_acid_bottle", CorrosiveItem::new)
         .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
         .properties(p -> p
             .stacksTo(16)
             .food(new FoodProperties.Builder()
                 .alwaysEdible()
-                .effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 100, false, false, false), 1F)
                 .build()
             )
         )
         .register();
 
-    public static final ItemEntry<BuildersTeaItem> NITRIC_ACID_BOTTLE = REGISTRATE.item("nitric_acid_bottle", BuildersTeaItem::new)
-        .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
-        .properties(p -> p
-            .stacksTo(16)
-            .food(new FoodProperties.Builder()
-                .alwaysEdible()
-                .effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 100, false, false, false), 1F)
-                .build()
+    public static final ItemEntry<CorrosiveItem> NITRIC_ACID_BOTTLE = REGISTRATE.item("nitric_acid_bottle", CorrosiveItem::new)
+            .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
+            .properties(p -> p
+                    .stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .build()
+                    )
             )
-        )
-        .register();
+            .register();
 
     public static final ItemEntry<BuildersTeaItem> ETHANOL_BOTTLE = REGISTRATE.item("ethanol_bottle", BuildersTeaItem::new)
         .tag(AllTags.AllItemTags.UPRIGHT_ON_BELT.tag)
